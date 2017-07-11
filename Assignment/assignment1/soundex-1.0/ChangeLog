@@ -1,0 +1,66 @@
+CHANGES
+=======
+
+1.0
+---
+
+* package name should be soundex not indicsoundex
+* add missing , after setup_requires
+* Soundex is now stable enough for 1.0 release
+* Fix url_for calls to new blueprint method
+* Ignore KeyError exception, function will return 0
+* Fix coveralls badge
+* Add README.rst
+* use pbr for packaging
+* Drop core.py and move logic to __init__.py
+* Fix copy paste errors from silpa_common
+* Add travis integration
+* Reorganizing and major rewriting of Soundex module
+* add jquery ime for input box
+* styling input box
+* Correction of wording about textboxes
+* moving api part to "well" for consistency
+* fix typo
+* changed to new bootstrap ui
+* javascript code optimization
+* removed accidently placed file
+* Added templates and bumped version to 0.3.1
+* added templates
+
+0.3
+---
+
+* Bumped the version
+* Added Unicode conversion at one missing place
+* Convert the letter from charmap to unicode if argument to compare is unicode
+* Convert the character to unicode
+* Git gone mad during merge of branch and did foolishness so manually merging branch
+
+0.2
+---
+
+* Bumped version
+* typo fix
+* get_instance => getInstance
+* Lets use getInstance
+* We don't have extra packages so no need of packages clause in setup.py
+* getInstance => get_instance
+
+0.1
+---
+
+* Ok resturcturing again we don't need one more level of directory
+* Added LICENSE file
+* documentation for get_instance function added (function renamed too!)
+* Sensible module documentation
+* Avoid having to import soundex.soundex (cherry picked from commit 08972feba0e1dc402c8551b478c23b5595b3587f)
+* Namespace package causes import to be from soundex.soundex import Soundex
+* Ok docstring fixes
+* Added _all_
+* Added moar docstrings
+* Added _all_
+* Some documentation is added
+* Added name space declarations added charmap imported it into soundex
+* Git ignore added
+* Setup.py added
+* Initializing repository
